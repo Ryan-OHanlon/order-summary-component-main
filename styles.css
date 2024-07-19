@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "red hat display";
+    src: url(./assets/Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 50%;
+    background-color: hsl(225, 100%, 94%);
+    font-family: "red hat display";
+}
+
+main {
+    max-width: 350px;
+    background-color: hsl(0, 100%, 100%);
+    border-radius: 1em;
+}
+section {
+    margin: 1em;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+p {
+    text-align: center;
+    font-weight: 500;
+}
+
+a {
+    font-weight: 600;
+    cursor: pointer;
+}
+.hero {
+    max-width: 350px;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.description {
+    color: hsl(224, 23%, 55%);
+}
+
+.plan {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 1em;
+    margin: 1em;
+    div{
+        margin-right: 2em;
+    }
+    .annual {
+        font-weight: 700;
+        color: hsl(223, 47%, 23%);
+    }
+    .price {
+        color: hsl(224, 23%, 55%)
+    }
+}
+.change:hover {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+
+.payment {
+    background-color:hsl(245, 75%, 52%);
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+}
+.payment:hover {
+    background-color:hsl(224, 23%, 55%);
+
+}
+
+.button { 
+    color: hsl(0, 100%, 100%);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.cancel {
+    font-weight: 700;
+    text-decoration: none;
+    color:  hsl(224, 23%, 55%);
+}
+
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+@media screen and (min-width: 900px) {
+    body {
+        background-image: url(./images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 50%;
+        background-color: hsl(225, 100%, 94%);
+    }
+}
