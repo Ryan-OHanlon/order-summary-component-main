@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/order-summary-component-using-css-flex-u85A40E6Fa](https://www.frontendmentor.io/solutions/order-summary-component-using-css-flex-u85A40E6Fa)
 - Live Site URL: [https://ryan-ohanlon.github.io/order-summary-component-main/](https://ryan-ohanlon.github.io/order-summary-component-main/)
 
 ## My process
